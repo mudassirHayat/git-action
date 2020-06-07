@@ -2,7 +2,7 @@
     margin-left: 8%;
 }
 .first{
-    background-color: darkgray;
+    background-color:gainsboro;
 }
 #first-outline{
     font-size: large;
@@ -11,10 +11,13 @@
 }
 table th ,td{
     text-align: center;
+    font-family: monospace;
+    font-size: 20px;;
 }
 
 table{
-    background-color: moccasin;
+
+    background-color: darksalmon;
     
 }
 .heading{
@@ -36,9 +39,40 @@ table{
 }
 .book a{
     text-decoration: none;
-     color: darkslateblue;
+     color:black;
     text-decoration: none;
 }
 .notes{
-    background-color: moccasin;
+    background-color: darksalmon;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 17px;
+    
+}
+.book a:hover{
+    background-color:antiquewhite;
+}
+sup a{
+    color:black ;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.subinner{
+  font-family: monospace;
+  font-size: 20px;
+  color:black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+marquee{
+    font-family: monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.lead{
+    font-family: monospace;
+
+}
+.lead h4{
+    font-size: 20px;
 }
