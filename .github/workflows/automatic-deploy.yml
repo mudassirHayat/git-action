@@ -30,4 +30,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ bsit-pastpapers.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ bsit.surge.sh --token ${{secrets.SURGE_TOKEN}}
