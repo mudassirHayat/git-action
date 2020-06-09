@@ -14,6 +14,12 @@ table th ,td{
     font-family: monospace;
     font-size: 20px;;
 }
+table button a{
+    color: white;
+}
+table button a:hover{
+  color:black;
+}
 
 table{
 
@@ -50,7 +56,7 @@ table{
     
 }
 .book a:hover{
-    background-color:antiquewhite;
+    color:aqua;
 }
 sup a{
     color:black ;
@@ -66,7 +72,7 @@ sup a{
 }
 marquee{
     font-family: monospace;
-    text-transform: capitalize;
+    
     font-weight: bold;
 }
 .lead{
