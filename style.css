@@ -4,6 +4,10 @@
 .first{
     background-color:gainsboro;
 }
+.home-color{
+    background-color: gainsboro;
+}
+
 #first-outline{
     font-size: large;
     color: black;
@@ -13,6 +17,11 @@ table th ,td{
     text-align: center;
     font-family: monospace;
     font-size: 20px;;
+}
+
+table th{
+    text-transform: capitalize;
+    color: grey;
 }
 table button a{
     color: white;
@@ -30,12 +39,16 @@ table{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
+    color : grey;
+}
+
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .lead{
-    text-align: justify;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 }
 .line 
 {height:2px;
@@ -92,4 +105,7 @@ marquee{
 }
 .download a{
     color: black;;
+}
+.subinner{
+    color:blue;
 }
