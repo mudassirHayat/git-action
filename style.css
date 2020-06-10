@@ -109,3 +109,7 @@ marquee{
 .subinner{
     color:blue;
 }
+.box{
+    border: 1px solid gray;
+    background-color: darksalmon;
+}
