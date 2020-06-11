@@ -137,8 +137,17 @@ footer{
     color:black;
     
 }#scrol-6 a{
-    margin-left:65% ;
+    margin-left:56% ;
 }
 #equation{
      margin-left: px;5
+}
+.footer-text{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.footer-text span{
+    color: blue;;
 }
