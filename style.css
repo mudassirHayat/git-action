@@ -39,7 +39,8 @@ table{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-    color : grey;
+    color :black;
+    background-color:rosybrown;
 }
 
 .head{
@@ -109,14 +110,25 @@ marquee{
     background-color:white;
 }
 .subinner{
-    color:black;
+    color: rgb(37, 54,63);
     text-decoration: none;
 }
 .box{
     border: 1px solid gray;
     background-color: darksalmon;
+    width:100%;
 }
 .sup a{
     border: 1px solid gray;
     background-color: white;
+}
+footer{
+    background-color: black;
+}
+#footer2{
+    margin-top: 0px;
+}
+.scroll a{
+    margin-left: 70%;
+    color:yellow;
 }
