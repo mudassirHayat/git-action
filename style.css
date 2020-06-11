@@ -151,3 +151,8 @@ footer{
 .footer-text span{
     color: blue;;
 }
+.fab{
+    background-color: white;
+    margin-left: 20%;
+    font-size: 40px;
+}
