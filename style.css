@@ -129,6 +129,11 @@ footer{
     margin-top: 0px;
 }
 .scroll a{
-    margin-left: 70%;
+    margin-left: 68%;
     color:yellow;
+
+}
+.scroll a:hover{
+    color:black;
+    
 }
