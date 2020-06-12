@@ -32,7 +32,7 @@ table button a:hover{
 
 table{
 
-    background-color:greenyellow;
+    background-color:sandybrown;
     
 }
 .heading{
@@ -64,7 +64,7 @@ table{
     list-style: none;
 }
 .notes{
-    background-color:greenyellow;
+    background-color: sandybrown;
     border: 1px solid black;
     font-family: monospace;
     font-size: 17px;
@@ -118,7 +118,7 @@ marquee{
 }
 .box{
     border: 1px solid gray;
-    background-color:greenyellow;
+    background-color:sandybrown;
     width:100%;
 }
 .sup a{
@@ -133,7 +133,7 @@ footer{
 
 .scroll a{
     margin-left: 68%;
-    color:black;
+    color:yellow;
     font-weight: bold;
 
 }
