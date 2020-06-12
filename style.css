@@ -32,15 +32,15 @@ table button a:hover{
 
 table{
 
-    background-color: darksalmon;
+    background-color:greenyellow;
     
 }
 .heading{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-    color :black;
-    background-color:rosybrown;
+    color :white;
+    background-color:black;
 }
 
 .head{
@@ -64,7 +64,7 @@ table{
     list-style: none;
 }
 .notes{
-    background-color: darksalmon;
+    background-color:greenyellow;
     border: 1px solid black;
     font-family: monospace;
     font-size: 17px;
@@ -118,7 +118,7 @@ marquee{
 }
 .box{
     border: 1px solid gray;
-    background-color: darksalmon;
+    background-color:greenyellow;
     width:100%;
 }
 .sup a{
@@ -128,17 +128,18 @@ marquee{
 }
 footer{
     background-color: black;
+    
 }
-#footer2{
-    margin-top: 0px;
-}
+
 .scroll a{
     margin-left: 68%;
-    color:yellow;
+    color:black;
+    font-weight: bold;
 
 }
+
 .scroll a:hover{
-    color:black;
+    color:blue;
     
 }#scrol-6 a{
     margin-left:56% ;
@@ -149,14 +150,16 @@ footer{
 .footer-text{
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: capitalize;
 }
 .footer-text span{
-    color: blue;;
+    color:black;
+    font-weight: bold;
 }
-.fab{
-    background-color: white;
-    margin-left: 20%;
-    font-size: 40px;
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer2{
+    
 }
