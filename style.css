@@ -25,6 +25,7 @@ table th{
 }
 table button a{
     color: white;
+    text-decoration: none;
 }
 table button a:hover{
   color:black;
@@ -73,6 +74,7 @@ table{
 .book a:hover{
     color:aqua;
     list-style: none;
+    text-decoration: none;
 }
 sup a{
     color:black ;
@@ -111,6 +113,7 @@ marquee{
     border: 2px solid black;
     background-color:white;
     list-style: none;
+    text-decoration: none;
 }
 .subinner{
     color: rgb(37, 54,63);
@@ -125,6 +128,7 @@ marquee{
     border: 1px solid gray;
     background-color: white;
     list-style: none;
+    text-decoration: none;
 }
 footer{
     background-color: black;
@@ -135,6 +139,7 @@ footer{
     margin-left: 68%;
     color:yellow;
     font-weight: bold;
+    text-decoration: none;
 
 }
 
