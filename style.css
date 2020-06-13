@@ -108,7 +108,7 @@ marquee{
 }
 .download a{
     color: black;;
-    border: 1px solid gray;
+    border: 2px solid black;
     background-color:white;
     list-style: none;
 }
@@ -145,7 +145,7 @@ footer{
     margin-left:56% ;
 }
 #equation{
-     margin-left: px;5
+     margin-left: 5px;
 }
 .footer-text{
     color: white;
@@ -160,6 +160,9 @@ footer{
 .navbar-brand{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#footer2{
-    
+.fontawesom{
+    letter-spacing: 5px;
+}
+.fontawesom a:hover{
+  text-decoration: none;
 }
