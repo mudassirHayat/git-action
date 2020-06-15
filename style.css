@@ -171,3 +171,6 @@ footer{
 .fontawesom a:hover{
   text-decoration: none;
 }
+.pagination{
+    margin-left: 30%;
+}
