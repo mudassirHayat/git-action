@@ -172,5 +172,6 @@ footer{
   text-decoration: none;
 }
 .pagination{
-    margin-left: 30%;
+        justify-content: center;
+     
 }
