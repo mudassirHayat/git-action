@@ -33,7 +33,7 @@ table button a:hover{
 
 table{
 
-    background-color:sandybrown;
+    background-color: rgb(118, 202, 212);
     
 }
 .heading{
@@ -65,7 +65,7 @@ table{
     list-style: none;
 }
 .notes{
-    background-color: sandybrown;
+    background-color: rgb(118, 202, 212);
     border: 1px solid black;
     font-family: monospace;
     font-size: 17px;
@@ -121,7 +121,10 @@ marquee{
 }
 .box{
     border: 1px solid gray;
-    background-color:sandybrown;
+    /* background-color:rgb(215, 206, 199); */
+    /* background-color: rgb(68, 132, 206); */
+    /* background-color: rgb(43, 109, 169); */
+    background-color: rgb(118, 202, 212);
     width:100%;
 }
 .sup a{
