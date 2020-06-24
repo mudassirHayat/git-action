@@ -21,7 +21,7 @@ table th ,td{
 
 table th{
     text-transform: capitalize;
-    color: grey;
+    color: white;
 }
 table button a{
     color: white;
@@ -116,7 +116,8 @@ marquee{
     text-decoration: none;
 }
 .subinner{
-    color: rgb(37, 54,63);
+    /* color: rgb(37, 54,63); */
+    color: white;
     text-decoration: none;
 }
 .box{
@@ -177,4 +178,12 @@ footer{
 .pagination{
         justify-content: center;
      
+}
+.btn-group button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#btn-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
