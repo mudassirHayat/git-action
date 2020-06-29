@@ -76,10 +76,12 @@ table{
     list-style: none;
     text-decoration: none;
 }
-sup a{
+ sup a{
     color:black ;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: capitalize;
+    font-weight: bold;
+    
 }
 .subinner{
   font-family: monospace;
