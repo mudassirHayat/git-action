@@ -1,11 +1,60 @@
 #navbarNav{
     margin-left: 8%;
 }
+.navbar-nav,ul li a{
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar-nav,ul li a:hover{
+    color:black;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color: blue;
+}
+.active{
+    color:#FF3D4F;
+
+    
+}
+#logo{
+    width: 150px;
+    height: 100px;
+}
 .first{
     background-color:gainsboro;
 }
 .home-color{
     background-color: gainsboro;
+}
+#banner{
+    background-image: url(images/main-banner1.jpg);
+    padding-top: 35px;
+}
+#banner-text{
+    color: white;
+    text-align: center;
+    line-height: 1.9em;
+}
+.inner{
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#salam{
+    color: #FF3D4F;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #first-outline{
@@ -33,7 +82,8 @@ table button a:hover{
 
 table{
 
-    background-color: rgb(118, 202, 212);
+    background-color:#0B184C;
+    color: white;
     
 }
 .heading{
@@ -41,7 +91,10 @@ table{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     color :white;
-    background-color:black;
+    background-color:blue;
+    height: 40px;
+    padding-top: 5px;
+
 }
 
 .head{
@@ -51,7 +104,7 @@ table{
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-}
+
 .line 
 {height:2px;
     border-width:0;
@@ -60,21 +113,24 @@ table{
 }
 .book a{
     text-decoration: none;
-     color:black;
-    text-decoration: none;
+     color:white;
     list-style: none;
 }
 .notes{
-    background-color: rgb(118, 202, 212);
+    background-color:#0B184C;
     border: 1px solid black;
     font-family: monospace;
     font-size: 17px;
+    color: white;
     
 }
 .book a:hover{
     color:aqua;
     list-style: none;
     text-decoration: none;
+}
+sup{
+    color: white;
 }
  sup a{
     color:black ;
@@ -86,7 +142,6 @@ table{
 .subinner{
   font-family: monospace;
   font-size: 20px;
-  color:black;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -108,9 +163,7 @@ marquee{
 
 
 
-#notes{
-    width: 83%;
-}
+
 .download a{
     color: black;;
     border: 2px solid black;
@@ -128,7 +181,7 @@ marquee{
     /* background-color:rgb(215, 206, 199); */
     /* background-color: rgb(68, 132, 206); */
     /* background-color: rgb(43, 109, 169); */
-    background-color: rgb(118, 202, 212);
+    background-color: #0B184C;
     width:100%;
 }
 .sup a{
@@ -137,8 +190,9 @@ marquee{
     list-style: none;
     text-decoration: none;
 }
-footer{
-    background-color: black;
+#footer-bg{
+    background-image: url(images/footer-bg.png);
+    position: fixed;
     
 }
 
@@ -189,4 +243,92 @@ footer{
 }
 #btn-text{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/****** stylish button *****/
+.dualcolorbutton{
+    border: 1px solid navy;
+ background: white; /* default button background color */
+ display: inline-block; /* set to block or inline-block */
+ padding: 10px 15px;
+   margin: 10px; /* for demo layout */
+ font: normal 16px 'Lato', sans-serif;  /* use google custom font "Lato" */
+ border-radius: 18px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+   outline: none;
+   text-decoration: none;
+ color: black;
+ overflow: hidden;
+   /*overflow bug in Chrome fix: http://stackoverflow.com/questions/5736503/how-to-make-css3-rounded-corners-hide-overflow-in-chrome-opera */
+   z-index: 100;
+   transition: all .5s;
+}
+
+.dualcolorbutton > span{
+ position: relative;
+ display: block;
+ z-index: 100;
+}
+
+.dualcolorbutton:before{
+ position: absolute;
+ content: '';
+ height: 100%;
+ width: 100%;
+ background: #8E1911; /* left slanted panel background color */
+ top: 0;
+ left: 0;
+ -webkit-transform: skew(-10deg) translate3d(-103%,0,0);
+ transform: skew(-10deg) translate3d(-103%,0,0); /* tuck away slanted panel beyond left edge of button */
+ border-right: 1px solid #8E1911;
+ transition: all .5s;
+}
+
+.dualcolorbutton:hover{
+   color: white;
+   background: #BC3A31; /* button background color onhover */
+}
+
+.dualcolorbutton:hover:before{
+ -webkit-transform: skew(-10deg) translate3d(-50%,0,0);
+ transform: skew(-10deg) translate3d(-50%,0,0); /* move slanted panel to middle of panel */
+}
+
+/* "RightSlide Varation */
+
+.dualcolorbutton.rightslide:before{
+ -webkit-transform: skew(-10deg) translate3d(103%,0,0); /* tuck away slanted panel beyond right edge of button */
+ transform: skew(-10deg) translate3d(103%,0,0); /* tuck away slanted panel beyond right edge of button */
+}
+
+.dualcolorbutton.rightslide:hover:before{
+ -webkit-transform: skew(-10deg) translate3d(50%,0,0);
+ transform: skew(-10deg) translate3d(50%,0,0);
+}
+
+/* "Dual Panels Varation */
+
+.dualcolorbutton.dualslide{
+   background: white;
+}
+
+.dualcolorbutton.dualslide:after{
+ position: absolute;
+ content: '';
+ height: 100%;
+ width: 100%;
+ background: #FF3D4F; /* right slanted panel background color */
+ top: 0;
+ left: 0;
+ -webkit-transform: skew(-10deg) translate3d(-103%,0,0);
+ transform: skew(-10deg) translate3d(103%,0,0); /* tuck away slanted right panel beyond right edge of button */
+ border-right: 1px solid #FF3D4F;
+ transition: all .5s;
+}
+
+.dualcolorbutton.dualslide:hover:after{
+ -webkit-transform: skew(-10deg) translate3d(50%,0,0);
+ transform: skew(-10deg) translate3d(50%,0,0);
 }
