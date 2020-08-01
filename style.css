@@ -92,7 +92,7 @@ table{
     text-transform: capitalize;
     color :white;
     background-color:blue;
-    height: 40px;
+    height: 55px;
     padding-top: 5px;
 
 }
@@ -192,7 +192,7 @@ marquee{
 }
 #footer-bg{
     background-image: url(images/footer-bg.png);
-    position: fixed;
+    
     
 }
 
