@@ -204,6 +204,9 @@ marquee{
     text-decoration: none;
 
 }
+.contact{
+    color:#FF3D4F;
+}
 
 .scroll a:hover{
     color:red;
