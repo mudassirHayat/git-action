@@ -16,7 +16,7 @@
 
 }
 .navbar{
-    background-color: #151515;
+    background-color: blue;
 }
 .active{
     color:#FF3D4F;
@@ -204,7 +204,7 @@ marquee{
 
 .scroll a{
     margin-left: 68%;
-    color:black;
+    color:yellow;
     font-weight: bold;
     text-decoration: none;
 
